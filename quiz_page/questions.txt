@@ -1,0 +1,109 @@
+
+//CREATE A MULTIDEMENSIONAL ARRAY TO STORE QUESTIONS CHOICES AND ANSWERS
+
+
+$quiz = array(
+
+    array('question' => 'Which term describes the gear an angler uses to catch fish?',
+        'name' => q1,
+        'choices' => ('tackle',
+                      'luggage',
+                      'supply',
+                      'paraphanalia')
+        'answer' => 'tackle',
+
+    array('question' => 'In the fishing vocabulary, what is a leader?',
+        'name' => q2,
+        'choices' => ('a short length of fishing line',
+                      'the line between the hook and sinker',
+                      'the line in between the guides',
+                      'the whole line')
+        'answer' => 'a short length of fishing line',
+
+    array('question' => 'Which of these is a type of fishing rod?',
+        'name' => q3,
+        'choices' => ('ugly stick',
+                       'birch reel',
+                       'webster',
+                       'flowage')
+        'answer' => 'ugly stick',
+
+    array('question' =>  'How many points does a treble hook have?',
+           'name' => q4,
+           'choices' => ('1,',
+                          '2',
+                          '3',
+                          '4')
+           'answer' => '3',
+
+     array('question' => 'What is the item on the hook more commonly called?',
+            'name' => q5,
+           'choices' => ('bait',
+                          'catch',
+                          'type',
+                          'feed')
+           'answer' => 'bait',
+
+     array('question' => 'You’re fishing in 5ft grass flats. What are you most likely to catch?',
+            'name' => q6,
+           'choices' => ('trout',
+                         'bass',
+                         'northern',
+                         'walleye')
+           'answer' => 'trout',
+
+     array('question' => 'Given longlines, fish come close to the surface, and they need to be held up by something. What is the common term used by fishermen?',
+            'name' => q7,
+            'choices' => ('float',
+                          'sinker',
+                          'bobber',
+                          'hook')
+            'answer' => 'float',
+
+      array('question' => 'There are lures to attract a stray swimmer’s attention. A few of them have a special tail that can spin. what is the name of this lure',
+           'name' => q8,
+           'choices' => ('spinner baits',
+                          'jigs',
+                          'jerk baits',
+                          'frogs')
+            'answer' => 'spinner baits',
+
+     array('question' => 'March browns, gray fox, light Cahill, quill Gordon, blue dun, and green drakes are all patterns of what?',
+           'name' => q9,
+           'choices' => ('mayflies',
+                          'fish eggs',
+                          'horseflies',
+                          'fishtails')
+           'answer' => 'mayflies',
+
+     array('question' => 'What is usually used as bait on a tip-up?',
+            'name' => q10,
+            'choices' => ('minnow',
+                           'worm',
+                           'leech',
+                           'frog')
+            'answer' => 'minnow',
+
+);
+
+
+//output questions in form using radio buttons
+
+//BEFORE NEXT CLASS OUTPUT FORM ON PAGE
+
+
+
+
+
+
+//output radio buttons for each choice in question
+//output choice
+//output text if correct
+//output text for correct answer if wrong
+
+//check for correct answers
+
+//do the math to figure out the percentage
+
+
+
